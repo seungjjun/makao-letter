@@ -126,7 +126,7 @@ main {
 }
 
 
-@media (min-width:321px) and (max-width:767px) {
+@media (min-width:321px) and (max-width:600px) {
     .whale-img {
         width: 17rem;
         height: 17rem;
@@ -141,8 +141,6 @@ main {
         bottom: 6.5em;
 
         padding: 0.7rem 0 0 1em;
-
-        word-wrap: ;
     }
 
     .article-content-box {
@@ -161,6 +159,82 @@ main {
 
     .content-list a {
         height: 25rem;
+
+        padding: 1rem 1rem 0 1rem;
+    }
+}
+
+@media (min-width:601px) and (max-width:840px) {
+    .whale-img {
+        width: 26rem;
+        height: 26rem;
+
+        bottom: 5rem;
+    }
+
+    .article-title {
+        font-size: 1.2rem;
+
+        height: 4em;
+        bottom: 9em;
+
+        padding: 0.7rem 0 0 1em;
+    }
+
+    .article-content-box {
+        bottom: 10.9rem;
+    }
+
+    .contents {
+        display: grid;
+
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .content-list {
+        width: 15rem;
+    }
+
+    .content-list a {
+        height: 18rem;
+
+        padding: 1rem 1rem 0 1rem;
+    }
+}
+
+@media (min-width:841px) and (max-width:1023px) {
+    .whale-img {
+        width: 28rem;
+        height: 28rem;
+
+        bottom: 5rem;
+    }
+
+    .article-title {
+        font-size: 1.2rem;
+
+        height: 4em;
+        bottom: 9em;
+
+        padding: 0.7rem 0 0 1em;
+    }
+
+    .article-content-box {
+        bottom: 10.9rem;
+    }
+
+    .contents {
+        display: grid;
+
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .content-list {
+        width: 16.5rem;
+    }
+
+    .content-list a {
+        height: 18rem;
 
         padding: 1rem 1rem 0 1rem;
     }
