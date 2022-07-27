@@ -4,32 +4,39 @@ header {
     justify-content: center;
     align-items: center;
 
-    margin-top: 4vw;
-    min-width: 1024px;
+    margin-top: 3vw;
+    margin-bottom: 2vw;
+}
+
+#title {
+    font-family: 'Pacifico';
+    font-size: 2.5rem;
 }
 
 .icon-box {
     display: flex;
+    position: relative;
+    left: 23vw;
 
-    margin-left: 15vw;
+    border: 1px solid black;
 }
 
 .search-icon {
     background: url(../images/search.png);
     background-size: contain;
+    background-repeat: no-repeat;
 
-    width: 1.6rem;
-    height: 1.6rem;
+    width: 2rem;
+    height: 2rem;
 
-    border: 1px solid black;
+    border-right: 1px solid black;
 }
 
 .user-icon {
     background: url(../images/user.png);
     background-size: contain;
+    background-repeat: no-repeat;
 
-    width: 1.6rem;
-    height: 1.6rem;
-
-    border: 1px solid black;
+    width: 2rem;
+    height: 2rem;
 }
