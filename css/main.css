@@ -143,6 +143,10 @@ main {
         padding: 0.7rem 0 0 1em;
     }
 
+    .article-title h2 {
+        width: 35%;
+    }
+
     .article-content-box {
         bottom: 6.5rem;
     }
@@ -181,6 +185,10 @@ main {
         padding: 0.7rem 0 0 1em;
     }
 
+    .article-title h2 {
+        width: 35%;
+    }
+
     .article-content-box {
         bottom: 10.9rem;
     }
@@ -216,7 +224,11 @@ main {
         height: 4em;
         bottom: 9em;
 
-        padding: 0.7rem 0 0 1em;
+        padding: 0.7rem 0 0 1rem;
+    }
+
+    .article-title h2 {
+        width: 24%;
     }
 
     .article-content-box {
