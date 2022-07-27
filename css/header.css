@@ -40,3 +40,16 @@ header {
     width: 2rem;
     height: 2rem;
 }
+
+@media (min-width:321px) and (max-width:767px) {
+    .icon-box {
+        display: none;
+    }
+
+    #title {
+        position: relative;
+        font-family: 'Pacifico';
+
+        font-size: 2.6rem;
+    }
+}
